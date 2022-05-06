@@ -18,7 +18,7 @@ This add-on allows you to create, save, select, and copy your own notes. E.G, a 
 ### Note manager dialog.
 
 In this dialog, you will be focused in the search text field. You can see the list of notes by pressing tab key. You can navigate the items by using up and down arrow keys. Each element will show just 100 characters, but you can see the entire contend by pressing tab key in a multiline text edit field.
-In the multiline text edit field you can edit the note, the note will be saved when this field loses the focus or the entire dialog is closed. No confirmation is needed, because this addon is intended to take quick notes without assle. If you select multiple items, then the edit field to see the notes, will be read only because you can't edit multiple notes at the same time.
+In the multiline text edit field you can edit the note, the note will be saved when this field loses the focus or the entire dialog is closed. No confirmation is needed, because this addon is intended to take quick notes easily. A beep will be emited each time the note is saved. If you select multiple items, then the edit field to see the notes, will become read only because you can't edit multiple notes at the same time.
 
 You can search in the entire list of notes in the search edit field. Type some letters or words and then, press enter. The list of items will be updated according to your search. To clean the search, just clean the text in the search edit field, and press enter.
 
