@@ -1,5 +1,5 @@
 # NVDA Add-on: noteManager
-# Copyright (C) 2022 David CM
+# Copyright (C) 2022 - 2023 David CM
 # This add-on is free software, licensed under the terms of the GNU General Public License (version 2).
 # See the file LICENSE for more details.
 

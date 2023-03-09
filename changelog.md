@@ -1,2 +1,2 @@
-## Changes for 2022.1-dev ##
-This is the first release.
+## Changes for 2023.3 ##
+Updated the NVDA compatibility support.
