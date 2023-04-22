@@ -3,28 +3,29 @@
 # This file is distributed under the same license as the 'NoteManager' package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 'NoteManager' '2022.1-dev'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2023-04-15 09:26-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2022-05-06 07:37-0600\n"
+"PO-Revision-Date: 2023-03-19 12:44+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Translators: script category for add-on gestures
 #: addon\globalPlugins\noteManager.py:31
 msgid "Note manager"
-msgstr ""
+msgstr "Not yöneticisi"
 
 #: addon\globalPlugins\noteManager.py:67
 msgid "no notes available"
-msgstr ""
+msgstr "not yok"
 
 #. Translators: Documentation string for copy currently selected item script
 #: addon\globalPlugins\noteManager.py:74
@@ -32,67 +33,70 @@ msgid ""
 "Copy the currently selected note to the clipboard, which by default will be "
 "the most recently added note."
 msgstr ""
+"Seçili olan notu panoya kopyalar, varsayılan olarak en son eklenen not "
+"olacaktır."
 
 #. Translators: Documentation string for previous note item script
 #: addon\globalPlugins\noteManager.py:86
 msgid "Review the previous item in NVDA's note manager."
-msgstr ""
+msgstr "Not yöneticisinde önceki notu duyurur."
 
 #. Translators: Documentation string for next note item script
 #: addon\globalPlugins\noteManager.py:100
 msgid "Review the next item in NVDA's note manager."
-msgstr ""
+msgstr "Not yöneticisinde  sonraki notu duyurur."
 
 #. Translators: Documentation string for show in a dialog all notes saved in the note manager.
 #: addon\globalPlugins\noteManager.py:114
 msgid "Opens a dialog showing all notes saved in note manager"
 msgstr ""
+"Not yöneticisinde kaydedilen tüm notları gösteren bir iletişim kutusu açar"
 
 #. Translators: The title of the Notes manager Dialog
 #: addon\globalPlugins\noteManager.py:158
 msgid "Notes manager"
-msgstr ""
+msgstr "Not yöneticisi"
 
 #. Translators: the label for the search text field in the notes manager add-on.
 #: addon\globalPlugins\noteManager.py:181
 msgid "&Search"
-msgstr ""
+msgstr "A&ra"
 
 #. Translators: the label for the history elements list in the notes manager add-on.
 #: addon\globalPlugins\noteManager.py:189
 msgid "Notes"
-msgstr ""
+msgstr "Notlar"
 
 #. Translators: the label for the copy button in the notes Manager add-on.
 #: addon\globalPlugins\noteManager.py:217
 msgid "&Copy item"
-msgstr ""
+msgstr "&Öğeyi kopyala"
 
 #. Translators: the label for the delete button in the notes Manager add-on.
 #: addon\globalPlugins\noteManager.py:221
 msgid "&Delete note"
-msgstr ""
+msgstr "Notu &sil"
 
 #. Translators: the label for the copy all button in the notes Manager add-on. This is based on the current search.
 #: addon\globalPlugins\noteManager.py:238
 msgid "Copy &all"
-msgstr ""
+msgstr "&Tümünü Kopyala"
 
 #. Translators: the label for the new note button in the notes Manager add-on. This is based on the current search.
 #: addon\globalPlugins\noteManager.py:242
 msgid "&New note"
-msgstr ""
+msgstr "Ye&ni not"
 
 #. Translators: The label of a button to close the notes Manager dialog.
 #: addon\globalPlugins\noteManager.py:251
 msgid "C&lose"
-msgstr ""
+msgstr "&Kapat"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 #: buildVars.py:16
 msgid "Note Manager"
-msgstr ""
+msgstr "Not Yöneticisi"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -101,3 +105,5 @@ msgid ""
 "This add-on allows you to insert, copy, and delete notes. These notes will "
 "be saved even after NVDA restarting."
 msgstr ""
+"Bu eklenti not eklemenize, kopyalamanıza ve silmenize olanak tanır. Bu "
+"notlar, NVDA yeniden başlatıldıktan sonra bile kaydedilecektir."
