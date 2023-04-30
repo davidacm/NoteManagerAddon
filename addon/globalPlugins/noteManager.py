@@ -360,12 +360,14 @@ class NotesDialog(
 		self.currentNoteField.SetFocus()
 
 	def onDelete(self, evt):
-		if len(self.selection) > 1 or len(self.searchNotes) == 0:
+		if not self.selection or len(self.searchNotes) == 0:
 			return
-		curIndex = self.noteList.GetFocusedItem()
-		nIndex = self.searchNotes[curIndex][0]
-		self.addon.removeNote(nIndex)
-		self.addon.save()
+		deletedItems = 0
+		for selected in sorted(self.selection):
+			nIndex = self.searchNotes[selected][0]-deletedItems
+			self.addon.removeNote(nIndex)
+			deletedItems = deletedItems+1
+		self.addon.save()	
 		self.onSearch(None, self.curSearch)
 
 	def onNoteUpdate(self, evt=None):
