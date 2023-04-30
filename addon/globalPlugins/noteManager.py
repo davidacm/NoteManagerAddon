@@ -350,6 +350,7 @@ class NotesDialog(
 		self.updateSelection()
 
 	def onNewNote(self, evt):
+		self.onNoteUpdate(evt)
 		newIndex = len(self.addon.notes)
 		self.searches[""] = newIndex
 		self.addon.notes.append("")
