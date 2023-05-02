@@ -11,7 +11,7 @@ Bu eklenti, kendi notlarınızı oluşturmanıza, kaydetmenize, seçmenize ve ko
 * Not yöneticisini açmadan notları incelemek için hareketler.
 
 ## kullanım:
-* Not Yöneticisini arama alanına odaklanarak açmak için, NVDA + Windows + S tuşlarına basın.
+* Not Yöneticisini arama alanına odaklanarak açmak için, NVDA + Windows + N tuşlarına basın.
 
 ### Not yöneticisi iletişim kutusu:
 

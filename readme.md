@@ -11,9 +11,7 @@ This add-on allows you to create, save, select, and copy your own notes. E.G, a 
 
 ## Usage.
 	
-	* Open the note manager, with focus in the search field: NVDA + windows + s.
-
-
+	* Open the note manager, with focus in the search field: NVDA + windows + n.
 
 ### Note manager dialog.
 

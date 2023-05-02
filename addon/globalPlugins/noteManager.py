@@ -72,7 +72,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Documentation string for copy currently selected item script
 		_("Copy the currently selected note to the clipboard, which by default will be the most recently added note."),
-		gesture="kb:nvda+alt+m"
+		gesture="kb:nvda+alt+v"
 	)
 	def script_copyCurNote(self, gesture):
 		if not self.isNotes() or self.curNote == -1:
@@ -112,7 +112,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Documentation string for show in a dialog all notes saved in the note manager.
 		_("Opens a dialog showing all notes saved in note manager"),
-		gesture="kb:nvda+windows+s"
+		gesture="kb:nvda+windows+n"
 	)
 	def script_showNotesDialog(self, gesture):
 		gui.mainFrame.prePopup()
@@ -363,13 +363,22 @@ class NotesDialog(
 	def onDelete(self, evt):
 		if not self.selection or len(self.searchNotes) == 0:
 			return
+		result = gui.messageBox(
+			# Translators: A message asking the user to confirm notes deletion.
+			message=_("Are you sure to delete the selected notes? This action can't be undone."),
+			# Translators: Title for message to delete notes.
+			caption=_("Delete selected notes"),
+			style=wx.YES | wx.NO | wx.ICON_WARNING
+		)
+		if wx.YES != result:
+			return
 		deletedItems = 0
 		for selected in sorted(self.selection):
 			nIndex = self.searchNotes[selected][0]-deletedItems
 			self.addon.removeNote(nIndex)
 			deletedItems = deletedItems+1
 		self.addon.save()	
-		self.onSearch(None, self.curSearch)
+		self.onSearch(t=self.curSearch)
 
 	def onNoteUpdate(self, evt=None):
 		if len(self.selection) > 1 or len(self.searchNotes) == 0:
