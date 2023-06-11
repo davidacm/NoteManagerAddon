@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 'NoteManager' '2022.1-dev'\n"
-"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2023-04-26 19:31+0300\n"
-"PO-Revision-Date: 2023-04-26 19:52+0300\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-06-11 13:37+0300\n"
+"PO-Revision-Date: 2023-06-11 13:38+0300\n"
 "Last-Translator: Heorhii <nvda.translation.uk@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #. Translators: script category for add-on gestures
 #: addon\globalPlugins\noteManager.py:31
@@ -91,6 +91,17 @@ msgstr "&Нова нотатка"
 #: addon\globalPlugins\noteManager.py:251
 msgid "C&lose"
 msgstr "За&крити"
+
+#. Translators: A message asking the user to confirm notes deletion.
+#: addon\globalPlugins\noteManager.py:368
+msgid "Are you sure to delete the selected notes? This action can't be undone."
+msgstr ""
+"Ви впевнені, що хочете видалити вибрані нотатки? Цю дію не можна скасувати."
+
+#. Translators: Title for message to delete notes.
+#: addon\globalPlugins\noteManager.py:370
+msgid "Delete selected notes"
+msgstr "Видалити вибрані нотатки"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
